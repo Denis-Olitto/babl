@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Shko.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Тест</h2>
+        <p>Сколько центнеров в одном центе?</b> </p>
+        <p><input type="radio" name="year" id="y1">0,001</p>
+        <p><input type="radio" name="year" id="y2">1</p>
+        <p><input type="radio" name="year" id="y3">0,1</p>
+        <p><input type="radio" name="year" id="y4">0,01</p>
+
+        <button id = "btn">Відповісти</button>
+        <p class="right hidden" id="right"> <b>Правильна відповідь.</b> 
+        <div class="wrong_div hidden" id="wrong_div">
+            <p class="wrong" id="wrong"><b>Неправильна відповідь</b></p>
+            <button id = "btn1">Подивитись відповідь</button>
+        </div>
+    
+        <p id="answer" class = "hidden"><b>Правильна відповідь:</b>0,001</p>
+    </div>
+    <script src="Gameover.js"></script>
